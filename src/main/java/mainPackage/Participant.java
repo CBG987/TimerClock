@@ -10,45 +10,55 @@ package mainPackage;
  * @author chris
  */
 public class Participant {
-    int startnumber, startime, endtime, totaltime;
+    int startnumber; 
+    String startime, endtime, totaltime, name;
 
-    public Participant(int startnumber, int startime, int endtime, int totaltime) {
+    public Participant(int startnumber, String startime, String endtime, String totaltime, String name) {
         this.startnumber = startnumber;
         this.startime = startime;
         this.endtime = endtime;
         this.totaltime = totaltime;
+        this.name = name;
     }
 
     public int getStartnumber() {
         return startnumber;
     }
 
-    public int getStartime() {
+    public String getStartime() {
         return startime;
     }
 
-    public int getEndtime() {
+    public String getEndtime() {
         return endtime;
     }
 
-    public int getTotaltime() {
+    public String getTotaltime() {
         return totaltime;
+    }
+    
+    public String getName() {
+        return name;
     }
 
     public void setStartnumber(int startnumber) {
         this.startnumber = startnumber;
     }
 
-    public void setStartime(int startime) {
+    public void setStartime(String startime) {
         this.startime = startime;
     }
 
-    public void setEndtime(int endtime) {
+    public void setEndtime(String endtime) {
         this.endtime = endtime;
     }
 
-    public void setTotaltime(int totaltime) {
+    public void setTotaltime(String totaltime) {
         this.totaltime = totaltime;
+    }
+    
+    public void setName(String name) {
+        this.name = name;
     }
     
 }

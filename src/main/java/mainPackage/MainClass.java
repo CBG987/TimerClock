@@ -285,6 +285,7 @@ public class MainClass implements ActionListener, KeyListener{
             startNumberEnter.setFocusable(false);
         });
         createPDF = new JButton("Send til PDF");
+        createPDF.setFocusable(false);
         createPDF.addActionListener((ActionEvent e) -> {
            PrintToPDF p = new PrintToPDF(finishedParticipants); 
         });

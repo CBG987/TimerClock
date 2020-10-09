@@ -1,4 +1,5 @@
 mainPackage\MainClass.class
-mainPackage\Person.class
+mainPackage\MainClass$1.class
+mainPackage\PrintToPDF.class
 mainPackage\ReadExcelFile.class
 mainPackage\Participant.class
